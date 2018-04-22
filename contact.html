@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Curriculam Vite</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <header>
+
+                  <nav>
+                        <div class="logo">
+                              NAYAN SHRESTHA
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="cv.html">Curriculum vitae</a></li>
+						<li><a href="social.html">Social</a></li>
+						<li><a href="model.html">model</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+            </header>
+            <div class="msg">
+                  <h1>contact me</h1>
+            
+            <div class="contactform">
+                  
+<form id="contactf" method="post" action="">
+      <input type="text" name="name" class="form" placeholder="your name" required><br>
+      <input type="email" name="email" class="form" placeholder="your email" required><br>
+      <textarea type="message" name="message" placeholder="enter your message" class="form" rows="5" required></textarea><br>
+      <input type="submit" value="submit" class="form-submit">
+</form>
+<div id="googleMap" style="width:50%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK1b7UKwb1AgfEKta2sxtIu59Juakatc0&callback=myMap"></script>
+
+
+           
+</body>
